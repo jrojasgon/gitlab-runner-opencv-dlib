@@ -38,7 +38,7 @@ RUN ln -s /root/dlib-${DLIB_VERSION} dlib
 
 
 # get openCV
-ARG OPENCV_VERSION='4.1.0'
+ARG OPENCV_VERSION='4.0.1'
 RUN cd /root/ && \
     wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip && \
     unzip ${OPENCV_VERSION}.zip && \
